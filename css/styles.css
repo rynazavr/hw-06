@@ -262,8 +262,8 @@ a.menu-link:after {
   visibility: hidden;
   transition: box-shadow 200ms ease-in, background-image 200ms ease-in;
 }
-.item-our-team:hover .card-overlay,
-.item-our-team:focus .card-overlay {
+.container-overlay-animation:hover .card-overlay,
+.container-overlay-animation:focus .card-overlay {
   opacity: 1;
   visibility: visible;
   box-shadow: 10px 10px 0px 0px rgb(149, 225, 211);
