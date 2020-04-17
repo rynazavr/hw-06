@@ -366,6 +366,7 @@ a.menu-link:after {
   text-transform: uppercase;
   width: 150px;
   height: 40px;
+  cursor: pointer;
 }
 .subscribe-form__input {
   width: 300px;
