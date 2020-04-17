@@ -117,7 +117,7 @@ a.menu-link:after {
   display: inline-block;
   width: 83px;
   height: 83px;
-  background-image: url(/img/alarm.png);
+  background-image: url(img/alarm.png);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -135,7 +135,7 @@ a.menu-link:after {
   display: inline-block;
   width: 83px;
   height: 83px;
-  background-image: url(/img/line_graph.png);
+  background-image: url(img/line_graph.png);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -153,7 +153,7 @@ a.menu-link:after {
   display: inline-block;
   width: 83px;
   height: 83px;
-  background-image: url(/img/computer.png);
+  background-image: url(img/computer.png);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -171,7 +171,7 @@ a.menu-link:after {
   display: inline-block;
   width: 83px;
   height: 83px;
-  background-image: url(/img/book.png);
+  background-image: url(img/book.png);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -189,7 +189,7 @@ a.menu-link:after {
   display: inline-block;
   width: 83px;
   height: 83px;
-  background-image: url(/img/home.png);
+  background-image: url(img/home.png);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -208,7 +208,7 @@ a.menu-link:after {
   display: inline-block;
   width: 83px;
   height: 83px;
-  background-image: url(/img/abstract.png);
+  background-image: url(img/abstract.png);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -308,7 +308,7 @@ a.menu-link:after {
   background-position: center;
   width: 56px;
   height: 56px;
-  background-image: url(/img/social/facebook.png);
+  background-image: url(img/social/facebook.png);
 }
 .social-icon-twitter {
   display: inline-block;
@@ -319,7 +319,7 @@ a.menu-link:after {
   background-position: center;
   width: 56px;
   height: 56px;
-  background-image: url(/img/social/twitter.png);
+  background-image: url(img/social/twitter.png);
 }
 .social-icon-pinterest {
   display: inline-block;
@@ -330,7 +330,7 @@ a.menu-link:after {
   background-position: center;
   width: 56px;
   height: 56px;
-  background-image: url(/img/social/pinterest.png);
+  background-image: url(img/social/pinterest.png);
 }
 .social-icon-instagram {
   display: inline-block;
@@ -341,7 +341,7 @@ a.menu-link:after {
   background-position: center;
   width: 56px;
   height: 56px;
-  background-image: url(/img/social/instagram.png);
+  background-image: url(img/social/instagram.png);
 }
 /*FOOTER*/
 .footer-elements {
