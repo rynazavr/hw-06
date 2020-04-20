@@ -103,13 +103,13 @@ a.menu-link:after {
 .service-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
-/*icon photography*/
-.service-item-specifications-photography {
+/*icons*/
+.service-item-element-all {
   position: relative;
   padding-left: 83px;
   text-align: left;
 }
-.service-item-specifications-photography::before {
+.service-item-element-before::before {
   position: absolute;
   left: 0;
   top: 0;
@@ -117,100 +117,29 @@ a.menu-link:after {
   display: inline-block;
   width: 83px;
   height: 83px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.icon-photography:before {
   background-image: url(../img/alarm.png);
-  background-repeat: no-repeat;
-  background-position: top;
 }
-/*icon web-design*/
-.service-item-specifications-web-design {
-  position: relative;
-  padding-left: 83px;
-  text-align: left;
-}
-.service-item-specifications-web-design::before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  content: "";
-  display: inline-block;
-  width: 83px;
-  height: 83px;
+.icon-web-design:before {
   background-image: url(../img/line_graph.png);
-  background-repeat: no-repeat;
-  background-position: top;
 }
-/*icon creativity*/
-.service-item-specifications-creativity {
-  position: relative;
-  padding-left: 83px;
-  text-align: left;
-}
-.service-item-specifications-creativity::before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  content: "";
-  display: inline-block;
-  width: 83px;
-  height: 83px;
+.icon-creativity:before {
   background-image: url(../img/computer.png);
-  background-repeat: no-repeat;
-  background-position: top;
 }
-/*icon seo*/
-.service-item-specifications-seo {
-  position: relative;
-  padding-left: 83px;
-  text-align: left;
+.icon-computer:before {
+  background-image: url(../img/computer.png);
 }
-.service-item-specifications-seo::before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  content: "";
-  display: inline-block;
-  width: 83px;
-  height: 83px;
-  background-image: url(../img/book.png);
-  background-repeat: no-repeat;
-  background-position: top;
-}
-/*icon css/html*/
-.service-item-specifications-html_css {
-  position: relative;
-  padding-left: 83px;
-  text-align: left;
-}
-.service-item-specifications-html_css::before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  content: "";
-  display: inline-block;
-  width: 83px;
-  height: 83px;
+.icon-html-css:before {
   background-image: url(../img/home.png);
-  background-repeat: no-repeat;
-  background-position: top;
 }
-
-/*icon digital*/
-.service-item-specifications-digital {
-  position: relative;
-  padding-left: 83px;
-  text-align: left;
+.icon-ceo:before {
+  background-image: url(../img/book.png);
 }
-.service-item-specifications-digital::before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  content: "";
-  display: inline-block;
-  width: 83px;
-  height: 83px;
+.icon-digital:before {
   background-image: url(../img/abstract.png);
-  background-repeat: no-repeat;
-  background-position: top;
 }
 
 .item-services-header {
