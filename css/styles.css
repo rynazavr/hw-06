@@ -27,6 +27,7 @@ body {
 .logo-link {
   text-decoration: none;
   font-size: 30px;
+  font-weight: 700;
 }
 .menu {
   margin: 0;
@@ -182,11 +183,14 @@ a.menu-link:after {
 .team-member-description {
   padding-top: 29px;
 }
+.team-photo {
+  display: block;
+}
 /*our-team-card-hover*/
 .card-overlay {
   position: absolute;
-  width: 380px;
-  height: 470px;
+  width: 100%;
+  height: 100%;
   opacity: 0;
   visibility: hidden;
   transition: box-shadow 200ms ease-in, background-image 200ms ease-in;
@@ -204,7 +208,7 @@ a.menu-link:after {
 }
 .container-overlay-animation {
   transition: all 200ms linear;
-  height: 470px;
+  /*height: 470px;*/
 }
 .container-overlay-animation:hover,
 .container-overlay-animation:focus {
